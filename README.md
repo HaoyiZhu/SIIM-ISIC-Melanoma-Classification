@@ -1,4 +1,6 @@
 # SIIM-ISIC Melanoma Classification: Identify melanoma in lesion images
+### Completed by [HaoyiZhu](https://github.com/HaoyiZhu/SIIM-ISIC-Melanoma-Classification) and [ShaofeiJiang](https://github.com/esflfei/SIIM-ISIC-Melanoma-Classification)
+
 This is an competition on kaggle and is the big home work of the course: Practice of AI programming. The website of the competition is [here](https://www.kaggle.com/c/siim-isic-melanoma-classification)
 
 ## Requirements
@@ -43,7 +45,7 @@ python demo_inference.py
 ## Results Saving
 * Training:
 
-After every snapshot, a model will be saved in [./exp](./exp)
+After every snapshot, a model will be saved in [./exp](./exp) and simultaneously a result csv file will be saved in [./result](./result)
 
 * Testing:
 
