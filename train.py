@@ -196,7 +196,10 @@ def test(m, epoch, batch_size):
             labels = labels.cuda()
             outputs = m(inps)
 
-            _, predicted = torch.max(outputs.data, 1)
+            column1 = torch.exp(outputs.data[:, 0]) 
+            column2 = torch.exp(outputs.data[:, 1])
+            
+            predicted = column2 / (column1 + column2)
             result['image_name'].extend(image_name)
             result['target'].extend(predicted.tolist())
         res = pd.DataFrame(result)
