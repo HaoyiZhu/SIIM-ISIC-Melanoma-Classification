@@ -32,6 +32,7 @@ python train.py
 ```
 
 * Testing:
+
 If you want to use the model trained by yourself, just change the path in demo_inference.py.
 
 Then simply run:
