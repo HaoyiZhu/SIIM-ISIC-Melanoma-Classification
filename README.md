@@ -11,7 +11,7 @@ This is an competition on kaggle and is the big home work of the course: Practic
 ```Bash
 # You can install efficientnet_pytorch by:
 pip install efficientnet_pytorch
-#Or:
+# Or:
 git clone https://github.com/lukemelas/EfficientNet-PyTorch
 cd EfficientNet-Pytorch
 pip install -e
