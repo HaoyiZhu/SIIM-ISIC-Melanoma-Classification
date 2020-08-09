@@ -24,7 +24,7 @@ num_gpu = torch.cuda.device_count()
 
 BATCH_SIZE = 10
 
-filename = 'model_10_loss_37.07799096acc_98.2370.pth'
+filename = 'model_8_loss_37.07936744acc_98.2370.pth'
 
 base_path = './data'
 test_img_path = os.path.join(base_path, 'jpeg/test/')
